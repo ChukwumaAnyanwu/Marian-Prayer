@@ -17,7 +17,7 @@ body {
   position: relative;
   border-top: 7px solid #1098ad;
   border-bottom: 7px solid #1098ad;
-  width: 1200px;
+  /* width: 1200px; */
   margin: 0 auto;
 }
 .parent {
@@ -72,5 +72,7 @@ h2 {
 @media only screen and (max-width: 600px) {
   .child {
     width: 90%;
+    margin-left: 3%;
+    margin-right: 3%;
   }
 }
